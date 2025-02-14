@@ -60,7 +60,7 @@ function homeTab() {
 
     menu.addEventListener('click', () => {
         container.style.display = 'none'
-        housing.style.display = 'flex'
+        housing.style.display = 'block'
     });
 
     contact.addEventListener('click', () => {
