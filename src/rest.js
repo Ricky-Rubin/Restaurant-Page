@@ -1,7 +1,8 @@
+import { menuTab } from "./menu.js"
+
 const header = document.querySelector('#header');
 const nav = document.querySelector('#nav');
 const content = document.querySelector('#content');
-const housing = document.createElement('div');
 
 function homeTab() {
     const home = document.createElement('button');
@@ -54,13 +55,16 @@ function homeTab() {
     container.append(title, welcome, hours, location);
     content.appendChild(container);
 
+    const housing = menuTab();
+
     home.addEventListener('click', () => {
-        container.style.display = 'flex'
+        content.innerHTML = '';
+        content.appendChild(container);
     });
 
     menu.addEventListener('click', () => {
-        container.style.display = 'none'
-        housing.style.display = 'block'
+        content.innerHTML = '';
+        content.appendChild(housing);
     });
 
     contact.addEventListener('click', () => {

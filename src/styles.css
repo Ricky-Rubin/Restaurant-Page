@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.beverage-font {
+   font-family: 'Pacifico', cursive;
+   font-size: 48px;
+   color: #ff4500; /* Pizza-like red-orange */
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
 * {
    /* padding: 0; */
@@ -124,10 +132,24 @@ body {
 
 .housing {
    width: 100%;
-   display: none;
+   display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   background-color: rgba(0, 0, 0, 0.7);
    border-radius: 20px;
+}
+
+.beverage {
+   width: auto;
+   font-size: 70px;
+   color: white;
+   font-weight: 700;
+   font-family: 'Pacifico', cursive;
+   color: #ff4500;
+   text-shadow: 
+        -3px -3px 0 #fff,  
+         3px -3px 0 #fff,  
+        -3px  3px 0 #fff,  
+         3px  3px 0 #fff;
+   margin-top: -15px;
 }
