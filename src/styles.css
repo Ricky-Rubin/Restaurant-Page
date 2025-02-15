@@ -75,7 +75,7 @@ body {
    border-radius: 20px;
 }
 
-.title, .top {
+.top {
    width: auto;
    padding: 15px;
    font-size: 32px;
@@ -85,6 +85,25 @@ body {
    margin: 60px 0px;
    color: white;
 }
+
+.title {
+   width: auto;
+   font-size: 74px;
+   font-weight: 700;
+   margin: 60px 0px;
+   text-align: center;
+   line-height: 1.1;
+   color: #EA2027;
+   /* color: #ff4500; */
+   /* border-bottom: 3px solid white; */
+   font-family: 'Pacifico', cursive;
+   text-shadow: 
+        -3px -3px 0 #dff9fb,  
+         3px -3px 0 #dff9fb,  
+        -3px  3px 0 #dff9fb,  
+         3px  3px 0 #dff9fb;
+}
+
 .welcome {
    width: 470px;
    padding: 25px;
@@ -137,9 +156,11 @@ body {
    justify-content: center;
    flex-direction: column;
    border-radius: 20px;
+   margin-bottom: 10px;
 }
 
-.beverage {
+.beverage,
+.breakfast {
    width: auto;
    font-size: 70px;
    color: white;
@@ -152,4 +173,97 @@ body {
         -3px  3px 0 #fff,  
          3px  3px 0 #fff;
    margin-top: -15px;
+   margin-bottom: 30px;
+}
+
+.option-one {
+   width: 400px;
+   padding: 25px;
+   border-radius: 60px;
+   border:3px solid white;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.7);
+   margin-bottom: 60px;
+}
+
+.image {
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.unsplash.com/photo-1601218291833-c65a25b08daa?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-size: cover;
+}
+
+.details {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.food-name {
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   margin-top: 5px;
+}
+
+.price {
+   font-size: 21px;
+   font-weight: 700;
+   margin-right: 20px;
+   text-align: center;
+}
+
+.food-desc {
+   font-size: 13px;
+   font-weight: 600;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.image-one {
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: cover;
+}
+
+.image-two {
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.pexels.com/photos/9009822/pexels-photo-9009822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: cover;
+}
+
+.pic-one {
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.unsplash.com/photo-1587339144367-f1cacbecac82?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-size: cover;
+}
+
+.pic-two{
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.pexels.com/photos/19737930/pexels-photo-19737930/free-photo-of-close-up-of-burgers-standing-on-boxes.jpeg?auto=compress&cs=tinysrgb&w=600');
+   background-size: cover;
+}
+
+.pic-three {
+   width: 160px;
+   height: 160px;
+   margin: auto;
+   border-radius: 50px;
+   background-image: url('https://images.pexels.com/photos/4109465/pexels-photo-4109465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: cover;
 }

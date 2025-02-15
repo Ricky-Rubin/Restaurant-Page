@@ -29,7 +29,7 @@ function homeTab() {
     const location = document.createElement('div');
     location.className = 'location';
 
-    title.textContent = "Katherine's Late Night Diner";
+    title.textContent = "Katherine's Night Diner";
 
     welcome.innerHTML = `
         <p class='head'>Katherine's</p>
