@@ -3,6 +3,7 @@ import { menuTab } from "./menu.js"
 const header = document.querySelector('#header');
 const nav = document.querySelector('#nav');
 const content = document.querySelector('#content');
+// const footer = document.querySelector('#footer');
 
 function homeTab() {
     const home = document.createElement('button');
