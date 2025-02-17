@@ -1,6 +1,8 @@
 import "./styles.css"
 import { homeTab } from "./rest.js";
 import { menuTab } from "./menu.js";
+import { contactTab } from "./contact.js";
 
 console.log(homeTab());
 console.log(menuTab());
+console.log(contactTab());

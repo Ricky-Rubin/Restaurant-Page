@@ -1,4 +1,5 @@
 import { menuTab } from "./menu.js"
+import { contactTab } from "./contact.js";
 
 const header = document.querySelector('#header');
 const nav = document.querySelector('#nav');
@@ -57,6 +58,7 @@ function homeTab() {
     content.appendChild(container);
 
     const housing = menuTab();
+    const main = contactTab();
 
     home.addEventListener('click', () => {
         content.innerHTML = '';
@@ -69,7 +71,8 @@ function homeTab() {
     });
 
     contact.addEventListener('click', () => {
-
+        content.innerHTML = '';
+        content.appendChild(main);
     });
 }
 
