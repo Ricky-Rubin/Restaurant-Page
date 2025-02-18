@@ -58,7 +58,7 @@ function homeTab() {
     content.appendChild(container);
 
     const housing = menuTab();
-    const main = contactTab();
+    const reachUs = contactTab();
 
     home.addEventListener('click', () => {
         content.innerHTML = '';
@@ -72,7 +72,7 @@ function homeTab() {
 
     contact.addEventListener('click', () => {
         content.innerHTML = '';
-        content.appendChild(main);
+        content.appendChild(reachUs);
     });
 }
 
