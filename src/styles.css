@@ -334,7 +334,7 @@ input, textarea {
    padding-left: 4px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
    .option-one, 
    .second-tab,
    .third-tab,
@@ -375,7 +375,7 @@ input, textarea {
    }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
    #footer {
       font-size: 5px;
       font-weight: 500;
@@ -412,7 +412,7 @@ input, textarea {
       font-size: 15px;
       border-radius: 6px;
    };
-}
+} */
 
 @media (min-width: 530px) {
    #content {
