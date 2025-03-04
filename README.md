@@ -13,7 +13,7 @@ This project is a part of [The Odin Project's FullStack JavaScript Course](https
 * Webpack configuration for bundling assets
 
 ## Setup 
-1. Clone repositort onto local machine
+1. Clone repository onto local machine
 2. Navigate into the project directory
 3. Install dependencies
 4. Start the development server
