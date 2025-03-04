@@ -11,6 +11,7 @@ This project is a part of [The Odin Project's FullStack JavaScript Course](https
 * Styled with CSS for a clean UI
 * Modular and maintainable code structure
 * Webpack configuration for bundling assets
+* **Responsive** - Designed for all screen sizes
 
 ## Setup 
 1. Clone repository onto local machine
