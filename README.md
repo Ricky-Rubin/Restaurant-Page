@@ -2,15 +2,15 @@
 This project is a part of [The Odin Project's FullStack JavaScript Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript). It's a restaurant page build with JavaScript, using Webpack for module bundling.
 
 ##Technologies Used
-HTML & CSS
-JavaScript
-Webpack 
-Node.js (for package management)
+* HTML & CSS
+* JavaScript
+* Webpack 
+* Node.js (for package management)
 
 ##Features 
-Styled with CSS for a clean UI
-Modular and maintainable code structure
-Webpack configuration for bundling assets
+* Styled with CSS for a clean UI
+* Modular and maintainable code structure
+* Webpack configuration for bundling assets
 
 ##Setup 
 1. Clone repositort onto local machine
@@ -20,4 +20,4 @@ Webpack configuration for bundling assets
 5. Build the project for production
 
 ##Live Website
-[Restaurant Page](https://ricky-rubin.github.io/Restaurant-Page/)
+* [Restaurant Page](https://ricky-rubin.github.io/Restaurant-Page/)
